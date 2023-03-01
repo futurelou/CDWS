@@ -9,3 +9,4 @@ pytrends.build_payload(kw_list=['pizza', 'bagel'], timeframe=['2022-09-04 2022-0
 x = pytrends.multirange_interest_over_time()
 
 print(x)
+print('hi')
