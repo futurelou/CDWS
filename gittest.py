@@ -1,12 +1,14 @@
-print("hello CDWS team")
-import pandas as pd #pandas 0.25
+import pandas as pd
 from pytrends.request import TrendReq
-from pytrends.request import TrendReq
+import plotly.express as px
+pytrend = TrendReq()
 
-pytrends = TrendReq(hl='en-US', tz=360)
-pytrends.interest_by_region(resolution='REGION')
-pytrends.build_payload(kw_list=['pizza', 'bagel'], timeframe=['2022-09-04 2022-09-10', '2022-09-18 2022-09-24'])
-x = pytrends.multirange_interest_over_time()
+pytrend.build_payload(kw_list=['Cold Symptoms', 'Covid Symptoms', 'Flu Symptoms'],  geo='US')
 
-print(x)
-print('hi')
+df = pytrend.interest_over_time()
+
+df = df.reset_index()
+print(df)
+
+fig = px.line(df, x='date', y=['Covid Symptoms', 'Cold Symptoms', 'Flu Symptoms'])
+fig.show()
