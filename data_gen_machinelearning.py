@@ -3,7 +3,7 @@ import pandas as pd
 from sodapy import Socrata
 import numpy as np
 import xgboost as xgb
-from sklearn.metrics import mean_squared_error
+
 
 client = Socrata("data.cdc.gov", None)
 
@@ -36,50 +36,11 @@ df = df.drop('case_month', axis=1)
 df['current_status'] = ylabel
 
 
-cats = df.select_dtypes(exclude=np.number).columns.tolist()
-
-for col in cats:
-    df[col] = df[col].astype('category')
-
-
-train, validate, test = np.split(df.sample(frac=1, random_state=42), [int(.6 * len(df)), int(.8 * len(df))])
-#splitting the data in to a 60, 20, 20 split
-y_train = train['current_status']
-y_test = test['current_status']
-
-
-x_train = train.drop('current_status', axis=1)
-x_test = test.drop('current_status', axis=1)
-validate = validate.drop('current_status', axis=1)
+df.to_csv('df.csv')
 
 
 
-dtrain_reg = xgb.DMatrix(x_train, y_train, enable_categorical=True)
 
-dtest_reg = xgb.DMatrix(x_test, y_test, enable_categorical=True)
-#current status is the label
-
-
-params = {"objective": "binary:logistic"}
-
-n = 100
-
-evals = [(dtest_reg, "validation"), (dtrain_reg, "train")]
-
-model = xgb.train(
-
-   params=params,
-
-   dtrain=dtrain_reg,
-
-   num_boost_round=n,
-
-    evals=evals,
-
-    verbose_eval=10
-
-
-)
 
 
 
