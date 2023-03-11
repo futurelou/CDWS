@@ -7,12 +7,12 @@ import xgboost as xgb
 
 client = Socrata("data.cdc.gov", None)
 
-results = client.get("n8mc-b4w4", limit=1000)
+results = client.get("n8mc-b4w4", limit=1000000)
 
 # Convert to pandas DataFrame
 results_df = pd.DataFrame.from_records(results)
 
-df = results_df.sample(200)
+df = results_df.sample(200000)
 # turning label to binary
 df['current_status'] =df.current_status.replace(to_replace=['Probable Case', 'Laboratory-confirmed case'], value=[0, 1])
 
