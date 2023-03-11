@@ -1,0 +1,201 @@
+,res_state,state_fips_code,res_county,county_fips_code,age_group,sex,race,ethnicity,process,exposure_yn,symptom_status,hosp_yn,icu_yn,death_yn,underlying_conditions_yn,current_status
+584,CA,06,SANTA CLARA,06085,18 to 49 years,Female,Asian,Non-Hispanic/Latino,Missing,Missing,Asymptomatic,Missing,Missing,Missing,No,1
+419,FL,12,ORANGE,12095,50 to 64 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,0
+453,TX,48,DENTON,48121,18 to 49 years,Female,Missing,Unknown,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+994,MA,25,ESSEX,25009,0 - 17 years,Male,NA,NA,Missing,Missing,Missing,Missing,Missing,Unknown,No,1
+42,TX,48,TARRANT,48439,18 to 49 years,Male,Black,Non-Hispanic/Latino,Missing,Missing,Symptomatic,No,Missing,Missing,No,1
+241,CA,06,LOS ANGELES,06037,50 to 64 years,Male,White,Hispanic/Latino,Missing,Missing,Unknown,No,Missing,Missing,No,1
+934,NY,36,KINGS,36047,0 - 17 years,Female,Asian,Unknown,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+681,NY,36,NASSAU,36059,65+ years,Female,Unknown,Unknown,Missing,Missing,Missing,Missing,Missing,No,No,1
+200,NJ,34,BERGEN,34003,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Missing,No,Missing,No,No,1
+707,MA,25,ESSEX,25009,0 - 17 years,Male,NA,NA,Missing,Missing,Missing,Missing,Missing,Unknown,No,1
+851,CA,06,FRESNO,06019,0 - 17 years,Male,Unknown,Unknown,Missing,Missing,Unknown,Missing,Missing,Missing,No,0
+534,MN,27,HENNEPIN,27053,18 to 49 years,Female,White,Hispanic/Latino,Missing,Yes,Symptomatic,Missing,Missing,No,No,1
+951,PR,72,NA,NA,18 to 49 years,Male,Unknown,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+658,WA,53,KING,53033,18 to 49 years,Male,White,Non-Hispanic/Latino,Missing,Missing,Symptomatic,No,Missing,Missing,No,0
+395,CA,06,FRESNO,06019,0 - 17 years,Male,Unknown,Unknown,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+893,MO,29,ST. LOUIS,29189,18 to 49 years,Female,White,Hispanic/Latino,Missing,Missing,Missing,Unknown,Missing,Unknown,No,0
+659,NY,36,WESTCHESTER,36119,0 - 17 years,Female,Unknown,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,No,No,1
+803,OH,39,CUYAHOGA,39035,18 to 49 years,Male,Black,Non-Hispanic/Latino,Clinical evaluation,Yes,Symptomatic,No,Missing,No,Yes,0
+971,MI,26,OAKLAND,26125,18 to 49 years,Female,White,Unknown,Missing,Missing,Missing,Missing,Missing,Unknown,No,1
+737,CA,06,FRESNO,06019,0 - 17 years,Male,Unknown,Unknown,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+864,NY,36,BRONX,36005,50 to 64 years,Female,Black,Non-Hispanic/Latino,Missing,Missing,Unknown,Unknown,Unknown,Unknown,Yes,1
+432,PA,42,ALLEGHENY,42003,50 to 64 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Symptomatic,Unknown,Unknown,Unknown,No,1
+541,TN,47,SHELBY,47157,18 to 49 years,Female,Black,Non-Hispanic/Latino,Missing,Missing,Symptomatic,Unknown,Missing,Unknown,No,1
+471,CA,06,LOS ANGELES,06037,50 to 64 years,Male,White,Hispanic/Latino,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+928,CA,06,ALAMEDA,06001,18 to 49 years,Female,Asian,Unknown,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+593,CA,06,SAN BERNARDINO,06071,18 to 49 years,Male,White,Hispanic/Latino,Missing,Missing,Symptomatic,No,Missing,Missing,No,1
+676,FL,12,PALM BEACH,12099,50 to 64 years,Male,Unknown,Unknown,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+528,NY,36,QUEENS,36081,18 to 49 years,Male,Unknown,Unknown,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+102,NY,36,ERIE,36029,50 to 64 years,Male,Unknown,Unknown,Missing,Missing,Missing,Missing,Missing,No,No,1
+626,CA,06,CONTRA COSTA,06013,18 to 49 years,Female,NA,NA,Missing,Missing,Symptomatic,Missing,Missing,Missing,No,1
+732,MI,26,WAYNE,26163,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Unknown,No,0
+201,NY,36,NEW YORK,36061,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Symptomatic,Missing,Missing,Missing,No,0
+208,PA,42,ALLEGHENY,42003,50 to 64 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Symptomatic,Unknown,Unknown,Unknown,No,1
+897,CA,06,RIVERSIDE,06065,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Unknown,Missing,Missing,Missing,No,0
+964,CA,06,FRESNO,06019,0 - 17 years,Male,Unknown,Unknown,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+972,TX,48,DALLAS,48113,18 to 49 years,Male,Unknown,Unknown,Missing,Missing,Symptomatic,No,Missing,Missing,No,1
+125,NY,36,BRONX,36005,50 to 64 years,Female,Black,Non-Hispanic/Latino,Missing,Missing,Unknown,Yes,Unknown,Unknown,Yes,1
+653,NY,36,NEW YORK,36061,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Symptomatic,Missing,Missing,Missing,No,1
+470,AZ,04,PIMA,04019,18 to 49 years,Male,White,Hispanic/Latino,Missing,Missing,Symptomatic,No,Missing,No,No,1
+62,TX,48,DALLAS,48113,18 to 49 years,Male,Unknown,Unknown,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+743,MI,26,OAKLAND,26125,18 to 49 years,Female,White,Unknown,Missing,Missing,Missing,Missing,Missing,Unknown,No,1
+861,NY,36,KINGS,36047,0 - 17 years,Female,White,Unknown,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+374,NY,36,WESTCHESTER,36119,0 - 17 years,Female,Unknown,Hispanic/Latino,Missing,Missing,Symptomatic,No,Missing,No,No,1
+243,OH,39,FRANKLIN,39049,18 to 49 years,Female,Unknown,Unknown,Missing,Missing,Missing,Missing,Missing,Unknown,No,0
+909,TX,48,DENTON,48121,18 to 49 years,Female,Missing,Unknown,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+556,CA,06,ORANGE,06059,18 to 49 years,Male,White,Hispanic/Latino,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+24,NY,36,KINGS,36047,0 - 17 years,Female,Asian,Unknown,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+587,TX,48,HARRIS,48201,18 to 49 years,Female,Missing,Missing,Missing,Missing,Missing,No,Missing,No,No,1
+480,CA,06,SAN BERNARDINO,06071,18 to 49 years,Male,White,Hispanic/Latino,Missing,Missing,Unknown,No,Missing,Missing,No,1
+64,NC,37,WAKE,37183,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Unknown,Unknown,Unknown,No,No,1
+703,CA,06,SAN DIEGO,06073,50 to 64 years,Male,NA,NA,Missing,Missing,Symptomatic,No,Missing,Missing,No,1
+312,MA,25,SUFFOLK,25025,50 to 64 years,Male,White,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+563,FL,12,PALM BEACH,12099,50 to 64 years,Male,Unknown,Unknown,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+910,NY,36,NASSAU,36059,65+ years,Female,Unknown,Unknown,Missing,Missing,Missing,Missing,Missing,No,No,1
+651,MA,25,ESSEX,25009,0 - 17 years,Male,NA,NA,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+293,TX,48,DALLAS,48113,18 to 49 years,Male,Unknown,Unknown,Missing,Missing,Missing,No,Missing,No,No,1
+71,AZ,04,PIMA,04019,18 to 49 years,Male,White,Hispanic/Latino,Missing,Missing,Symptomatic,No,Missing,No,No,1
+797,NY,36,SUFFOLK,36103,65+ years,Female,Missing,Unknown,Missing,Missing,Missing,Missing,Missing,No,No,1
+87,MA,25,SUFFOLK,25025,50 to 64 years,Male,White,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+109,NV,32,CLARK,32003,18 to 49 years,Male,White,Hispanic/Latino,Routine surveillance,Missing,Symptomatic,No,No,Yes,No,1
+753,CA,06,SANTA CLARA,06085,18 to 49 years,Female,Asian,Non-Hispanic/Latino,Missing,Missing,Symptomatic,Missing,Missing,Missing,No,1
+799,PA,42,ALLEGHENY,42003,50 to 64 years,Female,White,Non-Hispanic/Latino,Missing,Yes,Symptomatic,No,Unknown,No,No,1
+575,TX,48,DALLAS,48113,18 to 49 years,Male,Unknown,Unknown,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+115,PA,42,ALLEGHENY,42003,50 to 64 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Symptomatic,No,No,No,No,1
+784,CA,06,RIVERSIDE,06065,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+887,NJ,34,ESSEX,34013,18 to 49 years,Male,Unknown,Unknown,Missing,Missing,Symptomatic,No,Missing,No,No,1
+946,CA,06,SACRAMENTO,06067,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+278,CA,06,KERN,06029,0 - 17 years,Male,Unknown,Unknown,Missing,Missing,Unknown,Missing,Missing,Missing,No,0
+250,FL,12,PALM BEACH,12099,50 to 64 years,Male,Unknown,Unknown,Missing,Missing,Symptomatic,No,Missing,No,No,1
+933,MI,26,OAKLAND,26125,18 to 49 years,Female,White,Unknown,Missing,Yes,Symptomatic,No,No,NA,Yes,1
+339,NY,36,NASSAU,36059,65+ years,Female,Unknown,Unknown,Missing,Missing,Missing,Missing,Missing,No,No,1
+190,TX,48,HARRIS,48201,18 to 49 years,Female,Missing,Missing,Missing,Missing,Missing,No,Missing,No,No,1
+674,MI,26,WAYNE,26163,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Unknown,No,0
+969,PA,42,ALLEGHENY,42003,50 to 64 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Symptomatic,No,No,No,Yes,1
+661,CA,06,SACRAMENTO,06067,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+960,MI,26,WAYNE,26163,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Symptomatic,No,Missing,Unknown,No,1
+834,PA,42,PHILADELPHIA,42101,50 to 64 years,Male,Black,Unknown,Missing,Missing,Symptomatic,Unknown,Unknown,Unknown,No,1
+736,MA,25,WORCESTER,25027,18 to 49 years,Male,White,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+384,CA,06,RIVERSIDE,06065,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+136,MI,26,OAKLAND,26125,18 to 49 years,Female,White,Unknown,Missing,Yes,Symptomatic,No,Missing,NA,No,1
+763,TX,48,TRAVIS,48453,18 to 49 years,Male,White,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+491,CA,06,SACRAMENTO,06067,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+671,FL,12,BROWARD,12011,50 to 64 years,Female,White,Hispanic/Latino,Missing,Missing,Symptomatic,No,Missing,No,No,1
+32,NY,36,WESTCHESTER,36119,0 - 17 years,Female,Unknown,Hispanic/Latino,Missing,Missing,Symptomatic,Missing,Missing,No,No,1
+868,IL,17,COOK,17031,18 to 49 years,Female,White,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,0
+678,MA,25,WORCESTER,25027,18 to 49 years,Male,White,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+968,CA,06,CONTRA COSTA,06013,18 to 49 years,Female,NA,NA,Missing,Missing,Symptomatic,Missing,Missing,Missing,No,1
+63,OH,39,CUYAHOGA,39035,18 to 49 years,Male,Black,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,No,Yes,1
+734,FL,12,PALM BEACH,12099,50 to 64 years,Male,Unknown,Unknown,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+43,CA,06,RIVERSIDE,06065,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+650,CA,06,SAN BERNARDINO,06071,18 to 49 years,Male,White,Hispanic/Latino,Missing,Missing,Symptomatic,No,Missing,Missing,No,1
+905,CA,06,KERN,06029,0 - 17 years,Male,Unknown,Unknown,Missing,Missing,Unknown,Missing,Missing,Missing,No,0
+628,AZ,04,PIMA,04019,18 to 49 years,Male,White,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,0
+631,NC,37,WAKE,37183,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Unknown,Unknown,Unknown,No,No,1
+536,CA,06,SAN BERNARDINO,06071,18 to 49 years,Male,White,Hispanic/Latino,Missing,Missing,Symptomatic,No,Missing,Missing,No,1
+621,MA,25,WORCESTER,25027,18 to 49 years,Male,White,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+355,CA,06,SANTA CLARA,06085,18 to 49 years,Female,Asian,Non-Hispanic/Latino,Missing,Missing,Symptomatic,Missing,Missing,Missing,No,1
+617,MI,26,WAYNE,26163,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Unknown,No,0
+689,OH,39,CUYAHOGA,39035,18 to 49 years,Male,Black,Non-Hispanic/Latino,Multiple,Missing,Symptomatic,No,No,No,Yes,1
+669,NY,36,ERIE,36029,50 to 64 years,Male,Unknown,Unknown,Missing,Missing,Missing,Missing,Missing,No,No,1
+566,TX,48,DENTON,48121,18 to 49 years,Female,Missing,Unknown,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+854,NY,36,SUFFOLK,36103,65+ years,Female,Missing,Unknown,Missing,Missing,Missing,Missing,Missing,No,No,1
+304,FL,12,ORANGE,12095,50 to 64 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,0
+821,MA,25,ESSEX,25009,0 - 17 years,Male,NA,NA,Missing,Missing,Missing,Missing,Missing,Unknown,No,1
+1,AZ,04,PIMA,04019,18 to 49 years,Male,White,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+61,CA,06,ORANGE,06059,65+ years,Female,White,Non-Hispanic/Latino,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+12,CA,06,SANTA CLARA,06085,18 to 49 years,Female,Asian,Non-Hispanic/Latino,Missing,Missing,Symptomatic,Missing,Missing,Missing,No,1
+378,CA,06,SACRAMENTO,06067,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+477,CA,06,SAN DIEGO,06073,50 to 64 years,Male,NA,NA,Missing,Missing,Unknown,No,Missing,Missing,No,1
+261,FL,12,ORANGE,12095,18 to 49 years,Female,White,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+624,NY,36,NASSAU,36059,65+ years,Female,Unknown,Unknown,Missing,Missing,Missing,Missing,Missing,No,No,1
+429,TN,47,NA,NA,18 to 49 years,Male,White,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+127,CA,06,SANTA CLARA,06085,18 to 49 years,Female,Asian,Non-Hispanic/Latino,Missing,Missing,Symptomatic,Missing,Missing,Missing,No,1
+778,WA,53,KING,53033,18 to 49 years,Male,White,Non-Hispanic/Latino,Missing,Missing,Symptomatic,Unknown,Missing,Missing,No,0
+428,TX,48,BEXAR,48029,18 to 49 years,Female,Missing,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+633,NY,36,KINGS,36047,0 - 17 years,Female,White,Unknown,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+764,FL,12,ORANGE,12095,50 to 64 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+648,CA,06,SAN DIEGO,06073,50 to 64 years,Male,NA,NA,Missing,Missing,Symptomatic,No,Missing,Missing,No,1
+30,TX,48,BEXAR,48029,18 to 49 years,Female,Missing,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+520,NY,36,KINGS,36047,0 - 17 years,Female,White,Unknown,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+260,NY,36,WESTCHESTER,36119,0 - 17 years,Female,Unknown,Hispanic/Latino,Missing,Missing,Symptomatic,No,Missing,No,No,1
+608,FL,12,HILLSBOROUGH,12057,18 to 49 years,Female,Unknown,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+742,AZ,04,PIMA,04019,18 to 49 years,Male,White,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+371,MA,25,SUFFOLK,25025,50 to 64 years,Male,White,Non-Hispanic/Latino,Missing,Missing,Missing,Yes,Missing,Missing,No,1
+321,MA,25,MIDDLESEX,25017,50 to 64 years,Male,Black,Non-Hispanic/Latino,Missing,Missing,Missing,No,Missing,No,No,1
+91,WA,53,KING,53033,18 to 49 years,Male,White,Non-Hispanic/Latino,Missing,Missing,Symptomatic,No,Missing,Missing,No,1
+426,MA,25,SUFFOLK,25025,50 to 64 years,Male,White,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+141,NJ,34,BERGEN,34003,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Missing,No,Missing,No,No,1
+499,CA,06,RIVERSIDE,06065,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Unknown,Missing,Missing,Missing,No,0
+338,TX,48,DENTON,48121,18 to 49 years,Female,Missing,Unknown,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+316,NY,36,WESTCHESTER,36119,0 - 17 years,Female,Unknown,Hispanic/Latino,Missing,Missing,Missing,No,Missing,No,No,1
+244,TX,48,HARRIS,48201,18 to 49 years,Female,Missing,Missing,Missing,Missing,Missing,No,Missing,No,No,1
+811,NY,36,QUEENS,36081,0 - 17 years,Female,NA,NA,Missing,Missing,Symptomatic,Missing,Missing,Missing,No,1
+369,NJ,34,BERGEN,34003,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Missing,No,Missing,No,No,1
+99,FL,12,HILLSBOROUGH,12057,18 to 49 years,Female,Unknown,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+373,WA,53,KING,53033,18 to 49 years,Male,White,Non-Hispanic/Latino,Missing,Missing,Symptomatic,No,Missing,Missing,No,0
+126,UT,49,SALT LAKE,49035,0 - 17 years,Male,White,Hispanic/Latino,Missing,Yes,Symptomatic,No,No,No,No,1
+155,PR,72,NA,NA,18 to 49 years,Male,Unknown,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,0
+433,CA,06,SACRAMENTO,06067,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+537,MA,25,ESSEX,25009,0 - 17 years,Male,NA,NA,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+423,MA,25,ESSEX,25009,0 - 17 years,Male,NA,NA,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+735,FL,12,MIAMI-DADE,12086,18 to 49 years,Female,White,Hispanic/Latino,Missing,Missing,Missing,No,Missing,No,No,1
+152,NC,37,MECKLENBURG,37119,18 to 49 years,Female,Unknown,Hispanic/Latino,Missing,Unknown,Symptomatic,No,Unknown,No,No,1
+496,FL,12,HILLSBOROUGH,12057,18 to 49 years,Female,Unknown,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+853,NY,36,NASSAU,36059,65+ years,Female,Unknown,Unknown,Missing,Missing,Missing,Missing,Missing,No,No,1
+524,UT,49,SALT LAKE,49035,0 - 17 years,Male,White,Hispanic/Latino,Missing,Yes,Symptomatic,No,No,No,No,1
+132,MA,25,MIDDLESEX,25017,50 to 64 years,Male,Black,Non-Hispanic/Latino,Missing,Missing,Missing,Yes,Missing,NA,No,1
+937,MA,25,ESSEX,25009,0 - 17 years,Male,NA,NA,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+128,NY,36,QUEENS,36081,0 - 17 years,Female,NA,NA,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+327,CA,06,ORANGE,06059,18 to 49 years,Male,White,Hispanic/Latino,Missing,Missing,Asymptomatic,No,Missing,Missing,No,1
+403,NC,37,WAKE,37183,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Unknown,Unknown,Unknown,No,No,1
+13,AZ,04,PIMA,04019,18 to 49 years,Male,White,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,No,No,1
+82,MN,27,HENNEPIN,27053,18 to 49 years,Female,White,Hispanic/Latino,Missing,Yes,Symptomatic,Missing,Missing,No,No,1
+519,AZ,04,MARICOPA,04013,50 to 64 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Missing,No,Missing,No,No,1
+18,MA,25,MIDDLESEX,25017,50 to 64 years,Male,Black,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Unknown,No,1
+986,TX,48,HARRIS,48201,18 to 49 years,Female,Missing,Missing,Missing,Missing,Missing,No,Missing,No,No,1
+238,IL,17,DUPAGE,17043,0 - 17 years,Female,NA,NA,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+749,NJ,34,MIDDLESEX,34023,50 to 64 years,Male,NA,NA,Missing,Missing,Missing,No,Missing,No,No,1
+245,CA,06,ALAMEDA,06001,18 to 49 years,Female,Asian,Unknown,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+269,PR,72,NA,NA,18 to 49 years,Male,Unknown,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,0
+550,MA,25,MIDDLESEX,25017,50 to 64 years,Male,Black,Non-Hispanic/Latino,Missing,Missing,Symptomatic,No,Missing,No,No,1
+235,OH,39,CUYAHOGA,39035,18 to 49 years,Male,Black,Non-Hispanic/Latino,Clinical evaluation,Yes,Asymptomatic,No,Missing,No,Yes,1
+103,FL,12,BROWARD,12011,50 to 64 years,Female,White,Hispanic/Latino,Missing,Missing,Symptomatic,No,Missing,No,No,1
+589,TX,48,TRAVIS,48453,18 to 49 years,Male,White,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+565,CA,06,FRESNO,06019,0 - 17 years,Male,Unknown,Unknown,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+849,FL,12,MIAMI-DADE,12086,18 to 49 years,Female,White,Hispanic/Latino,Missing,Missing,Symptomatic,No,Missing,No,No,1
+49,MI,26,MACOMB,26099,18 to 49 years,Female,White,Unknown,Missing,Missing,Missing,Missing,Missing,Unknown,No,1
+989,FL,12,ORANGE,12095,50 to 64 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,0
+891,TN,47,SHELBY,47157,18 to 49 years,Female,Black,Non-Hispanic/Latino,Missing,Missing,Asymptomatic,No,Missing,No,No,1
+620,FL,12,PALM BEACH,12099,50 to 64 years,Male,Unknown,Unknown,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+716,NY,36,WESTCHESTER,36119,0 - 17 years,Female,Unknown,Hispanic/Latino,Missing,Missing,Symptomatic,No,Missing,No,No,1
+745,TX,48,DALLAS,48113,18 to 49 years,Male,Unknown,Unknown,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+324,FL,12,HILLSBOROUGH,12057,18 to 49 years,Female,Unknown,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+407,TX,48,DALLAS,48113,18 to 49 years,Male,Unknown,Unknown,Missing,Missing,Missing,No,Missing,No,No,1
+439,TX,48,TARRANT,48439,18 to 49 years,Male,Black,Non-Hispanic/Latino,Missing,Missing,Symptomatic,No,Missing,Missing,No,1
+718,PA,42,ALLEGHENY,42003,50 to 64 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Symptomatic,Unknown,Unknown,Unknown,No,1
+255,NJ,34,BERGEN,34003,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Missing,No,Missing,No,No,1
+116,FL,12,MIAMI-DADE,12086,18 to 49 years,Female,White,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+106,CA,06,KERN,06029,0 - 17 years,Male,Unknown,Unknown,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
+347,TX,48,DALLAS,48113,18 to 49 years,Male,Unknown,Unknown,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+456,CA,06,CONTRA COSTA,06013,18 to 49 years,Female,NA,NA,Missing,Missing,Symptomatic,Missing,Missing,Missing,No,1
+287,MI,26,OAKLAND,26125,18 to 49 years,Female,White,Unknown,Missing,Missing,Missing,Missing,Missing,Unknown,No,1
+257,MA,25,SUFFOLK,25025,50 to 64 years,Male,White,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+357,TX,48,TARRANT,48439,18 to 49 years,Male,Black,Non-Hispanic/Latino,Missing,Missing,Missing,No,Missing,No,No,1
+69,UT,49,SALT LAKE,49035,0 - 17 years,Male,White,Hispanic/Latino,Missing,Missing,Symptomatic,No,No,No,No,1
+977,IL,17,DUPAGE,17043,0 - 17 years,Female,NA,NA,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+637,NY,36,BRONX,36005,50 to 64 years,Female,Black,Non-Hispanic/Latino,Missing,Missing,Unknown,Yes,Unknown,Unknown,Yes,1
+597,MA,25,SUFFOLK,25025,50 to 64 years,Male,White,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+404,AZ,04,MARICOPA,04013,50 to 64 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,No,No,1
+113,CA,06,CONTRA COSTA,06013,18 to 49 years,Female,NA,NA,Missing,Missing,Symptomatic,Missing,Missing,Missing,No,1
+344,MI,26,OAKLAND,26125,18 to 49 years,Female,White,Unknown,Missing,Missing,Missing,Missing,Missing,Unknown,No,1
+823,NY,36,NEW YORK,36061,18 to 49 years,Female,White,Non-Hispanic/Latino,Missing,Missing,Unknown,Missing,Missing,Missing,No,0
+6,OH,39,CUYAHOGA,39035,18 to 49 years,Male,Black,Non-Hispanic/Latino,Clinical evaluation,Missing,Symptomatic,No,Missing,No,Yes,1
+239,UT,49,SALT LAKE,49035,0 - 17 years,Male,White,Hispanic/Latino,Missing,Yes,Symptomatic,No,No,No,No,1
+431,NY,36,WESTCHESTER,36119,0 - 17 years,Female,Unknown,Hispanic/Latino,Missing,Missing,Symptomatic,Missing,Missing,No,No,1
+211,NC,37,MECKLENBURG,37119,18 to 49 years,Female,Unknown,Hispanic/Latino,Missing,Unknown,Unknown,Unknown,Unknown,No,No,1
+329,NV,32,CLARK,32003,18 to 49 years,Male,White,Hispanic/Latino,Multiple,Yes,Symptomatic,Missing,Missing,Missing,No,1
+509,TX,48,DENTON,48121,18 to 49 years,Female,Missing,Unknown,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+807,AZ,04,MARICOPA,04013,18 to 49 years,Male,White,Hispanic/Latino,Missing,Missing,Missing,Missing,Missing,Missing,No,1
+512,CA,06,CONTRA COSTA,06013,18 to 49 years,Female,NA,NA,Missing,Missing,Unknown,Missing,Missing,Missing,No,1
