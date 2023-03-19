@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from xgboost import XGBClassifier
 from sklearn.model_selection import GridSearchCV
 import xgboost as xgb
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, f1_score
 
 df = pd.read_csv(r'https://raw.githubusercontent.com/CovidWastewaterDetectionSystem/CDWS/main/df.csv',index_col=0)
 
@@ -43,5 +43,4 @@ for i in range(len(preds)):
 
 
 accuracy = accuracy_score(y_test,preds)
-
-print(accuracy)
+f1 = f1_score(y_test,preds)
