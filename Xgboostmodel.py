@@ -6,7 +6,7 @@ from sklearn.model_selection import GridSearchCV
 import xgboost as xgb
 from sklearn.metrics import accuracy_score
 
-df = pd.read_csv(r'C:\Users\louie\OneDrive\CDWS\df.csv',index_col=0)
+df = pd.read_csv(r'https://raw.githubusercontent.com/CovidWastewaterDetectionSystem/CDWS/main/df.csv',index_col=0)
 
 cats = df.select_dtypes(exclude=np.number).columns.tolist()
 
