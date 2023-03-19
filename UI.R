@@ -1,37 +1,4 @@
 
-Skip to content
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
-@futurelou
-CovidWastewaterDetectionSystem /
-  CDWS
-Public
-
-Fork your own copy of CovidWastewaterDetectionSystem/CDWS
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-
-Settings
-
-CDWS/UI.R
-@futurelou
-futurelou Update UI.R
-Latest commit d3a788a Mar 19, 2023
-History
-2 contributors
-@futurelou
-@studentgithub24
-206 lines (177 sloc) 7.17 KB
 library("shiny")
 library("shinythemes")
 library("plotly")
@@ -238,20 +205,3 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui = ui, server = server)
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-
-CDWS/UI.R at main · CovidWastewaterDetectionSystem/CDWS
