@@ -48,6 +48,8 @@ ui <- navbarPage(
       actionButton("keyword_go", "Search"),
       plotlyOutput("google_trends_plot")  %>% withSpinner()
     ),
+    tabPanel(title = "Symptom Evaluation"
+           ),
     tabPanel("Info",
                fluidRow(
                  column(
