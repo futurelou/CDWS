@@ -9,7 +9,7 @@ library("shinycssloaders")
 library("gtrendsR")
 library("data.table")
 library("scales")
-
+louie 
 states <- geojsonio::geojson_read("https://rstudio.github.io/leaflet/json/us-states.geojson", what = "sp")
 
 bins <- c(0, 10, 20, 50, 100, 200, 500, 1000, Inf)
