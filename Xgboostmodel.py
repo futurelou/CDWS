@@ -34,7 +34,7 @@ param = {'max_depth': 1,
 model = xgb.train(param, xgtrain, 400)
 
 
-#preds = model.predict(xgtest)
+preds = model.predict(xgtest)
 
 for i in range(len(preds)):
     if i<0.5:
