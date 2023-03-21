@@ -9,6 +9,9 @@ library("shinycssloaders")
 library("gtrendsR")
 library("data.table")
 library("scales")
+library('reticulate')
+
+py_function <- import("Xgboostmodel.py")$predict
 
 states <- geojsonio::geojson_read("https://rstudio.github.io/leaflet/json/us-states.geojson", what = "sp")
 
@@ -239,8 +242,8 @@ server <- function(input, output, session) {
       labs(title = paste0(isolate(input$keyword), collapse = ","))
   })
   
-  output$message <- renderText({
-    # Get user selections
+  py_output <- reactive({
+    # Get the input values
     age <- input$Age
     sex <- input$Sex
     race <- input$Race
@@ -248,25 +251,31 @@ server <- function(input, output, session) {
     hospital <- input$hospital
     covid_exposure <- input$Covid_exposure
     symptoms <- input$symptoms
-    underlying_conditions <- input$underlying_conditions
+    underlying_conditions <- input$"Do you have any underlying conditions"
     
-    # Generate message based on user selections
+    # Call the Python function with the input values
+    py_function_output <- predict(age, sex, race, ethnicity, hospital, covid_exposure, symptoms, underlying_conditions)
     
-    result <- py$my_python_function(age,sex,race,ethnicity,hospital,covid_exposure,symptoms,underlying_conditions)
-    
-    output$output <- renderPrint(result)
-    
-    
-    
+    # Return the output of the Python function
+    py_function_output
   })
-   
-   
+  
+  output$py_output <- renderText({
+    py_output()
+  })
   
   
   
   
   
-)}
+  
+  
+  
+  
+  
+  
+  
+}
   
   
 
