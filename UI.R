@@ -238,6 +238,37 @@ server <- function(input, output, session) {
       ) +
       labs(title = paste0(isolate(input$keyword), collapse = ","))
   })
-}
+  
+  output$message <- renderText({
+    # Get user selections
+    age <- input$Age
+    sex <- input$Sex
+    race <- input$Race
+    ethnicity <- input$ethnicity
+    hospital <- input$hospital
+    covid_exposure <- input$Covid_exposure
+    symptoms <- input$symptoms
+    underlying_conditions <- input$underlying_conditions
+    
+    # Generate message based on user selections
+    
+    result <- py$my_python_function(age,sex,race,ethnicity,hospital,covid_exposure,symptoms,underlying_conditions)
+    
+    output$output <- renderPrint(result)
+    
+    
+    
+  })
+   
+   
+  
+  
+  
+  
+  
+)}
+  
+  
+
 
 shinyApp(ui = ui, server = server)
