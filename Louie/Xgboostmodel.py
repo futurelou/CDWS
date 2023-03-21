@@ -34,7 +34,7 @@ param = {'max_depth': 1,
 model = xgb.train(param, xgtrain, 400)
 
 
-def predict(test):
+def predict1(test):
 
     xgtest = xgb.DMatrix(test, enable_categorical=True)
 
