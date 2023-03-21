@@ -46,7 +46,7 @@ def predict1(test):
         elif i>0.5:
             preds[i]=1
 
-    return preds
+    return "HI"
 #test
 
 
