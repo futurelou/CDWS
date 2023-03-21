@@ -11,7 +11,9 @@ library("data.table")
 library("scales")
 library('reticulate')
 
-py_function <- import("Xgboostmodel.py")$predict
+
+
+py_function <- import("Louie")$Xgboostmodel$predict
 
 states <- geojsonio::geojson_read("https://rstudio.github.io/leaflet/json/us-states.geojson", what = "sp")
 
@@ -84,6 +86,8 @@ ui <- navbarPage(
            radioButtons(inputId = "Do you have any underlying conditions",
                         label = "What are your symptoms like?:",
                         choices = c("Yes", "No"),inline = T),
+           
+           textOutput('py_output')
            
            
            
@@ -254,7 +258,7 @@ server <- function(input, output, session) {
     underlying_conditions <- input$"Do you have any underlying conditions"
     
     # Call the Python function with the input values
-    py_function_output <- predict(age, sex, race, ethnicity, hospital, covid_exposure, symptoms, underlying_conditions)
+    py_function_output <- Xgboostmodel$predict(age, sex, race, ethnicity, hospital, covid_exposure, symptoms, underlying_conditions)
     
     # Return the output of the Python function
     py_function_output
