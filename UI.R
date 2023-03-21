@@ -9,7 +9,7 @@ library("shinycssloaders")
 library("gtrendsR")
 library("data.table")
 library("scales")
-louie 
+
 states <- geojsonio::geojson_read("https://rstudio.github.io/leaflet/json/us-states.geojson", what = "sp")
 
 bins <- c(0, 10, 20, 50, 100, 200, 500, 1000, Inf)
@@ -49,7 +49,43 @@ ui <- navbarPage(
     actionButton("keyword_go", "Search"),
     plotlyOutput("google_trends_plot")  %>% withSpinner()
   ),
-  tabPanel(title = "Symptom Evaluation"
+  tabPanel(title = "Symptom Evaluation",
+           radioButtons(inputId = "Age",
+                              label = "Select your Age Group:",
+                              choices = c("0 - 17 years", "18 to 49 years", "50 to 64 years","65+ years"),inline = T),
+           
+           radioButtons(inputId = "Sex",
+                        label = "Select your Sex:",
+                        choices = c("Female", "Male", "Unknown","Other"),inline = T),
+           
+           radioButtons(inputId = "Race",
+                        label = "Select your Race:",
+                        choices = c("White", "Black", "American Indian/Alaska Native","Asian",'Multiple/Other','Native Hawaiian/Other Pacific Islander' ),inline = T),
+           
+           radioButtons(inputId = "ethnicity",
+                        label = "Select your ethnicity:",
+                        choices = c("Hispanic/Latino", "Non-Hispanic/Latino", "Unknown"),inline = T),
+           
+           radioButtons(inputId = "hospital",
+                        label = "Have you been to the hospital:",
+                        choices = c("Yes", "No", "Unknown"),inline = T),
+           
+           radioButtons(inputId = "Covid_exposure",
+                        label = "Have you been exposed to someone with covid?:",
+                        choices = c("Yes", "No", "Unknown"),inline = T),
+           
+           radioButtons(inputId = "symptoms",
+                        label = "What are your symptoms like?:",
+                        choices = c("Symptomatic", "Unknown", "Asymptomatic"),inline = T),
+           
+           radioButtons(inputId = "Do you have any underlying conditions",
+                        label = "What are your symptoms like?:",
+                        choices = c("Yes", "No"),inline = T),
+           
+           
+           
+           
+           
   ),
   tabPanel("Info",
            fluidRow(
