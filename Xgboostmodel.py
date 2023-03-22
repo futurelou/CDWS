@@ -56,18 +56,11 @@ def predict1(age_group, sex, race, ethnicity, exposure_yn,symptom_status,hosp_yn
     xgtest = xgb.DMatrix(test, enable_categorical=True)
 
     preds = model.predict(xgtest)
-
-    """for i in range(len(preds)):
-        if i<0.5:
-            preds[i]= 0
-        elif i>0.5:
-            preds[i]= 1"""
+    preds = preds *100
 
 
 
-
-
-    return f"you have a {preds} chance of having COVID"
+    return f"you have a {preds}% chance of having COVID"
 
 
 
