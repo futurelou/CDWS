@@ -37,7 +37,7 @@ model = xgb.train(param, xgtrain, 400)
 def predict1(age, sex, race, ethnicity, hospital, covid_exposure, symptoms, underlying_conditions):
 
     test = [age, sex, race, ethnicity, hospital, covid_exposure, symptoms, underlying_conditions]
-    test = np.array(test)
+    test = pd.DataFrame(test)
 
     xgtest = xgb.DMatrix(test, enable_categorical=True)
 
