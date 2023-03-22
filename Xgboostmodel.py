@@ -36,7 +36,9 @@ model = xgb.train(param, xgtrain, 400)
 
 def predict1(test):
 
-    """  xgtest = xgb.DMatrix(test, enable_categorical=True)
+    test = np.array(test)
+
+    xgtest = xgb.DMatrix(test, enable_categorical=True)
 
     preds = model.predict(xgtest)
 
@@ -44,7 +46,7 @@ def predict1(test):
         if i<0.5:
             preds[i]=0
         elif i>0.5:
-            preds[i]=1"""
+            preds[i]=1
 
     return test
 
