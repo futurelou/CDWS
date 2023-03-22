@@ -59,9 +59,11 @@ def predict1(age_group, sex, race, ethnicity, exposure_yn,symptom_status,hosp_yn
 
     for i in range(len(preds)):
         if i<0.5:
-            preds[i]=0
+            preds[i]= "You do not have covid"
         elif i>0.5:
-            preds[i]=1
+            preds[i]= "you have covid"
+
+
 
     return preds
 
