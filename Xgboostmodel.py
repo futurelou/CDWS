@@ -32,11 +32,11 @@ param = {'max_depth': 1,
          'nthread': 4}
 
 model = xgb.train(param, xgtrain, 400)
+print(X_train.columns)
 
+def predict1(age_group, sex, race, ethnicity, exposure_yn,symptom_status,hosp_yn, underlying_conditions_yn):
 
-def predict1(age, sex, race, ethnicity, hospital, covid_exposure, symptoms, underlying_conditions):
-
-    test = [age, sex, race, ethnicity, hospital, covid_exposure, symptoms, underlying_conditions]
+    test = [age_group, sex, race, ethnicity, exposure_yn,symptom_status,hosp_yn, underlying_conditions_yn]
     test = pd.DataFrame(test)
     cats = test.select_dtypes(exclude=np.number).columns.tolist()
 
