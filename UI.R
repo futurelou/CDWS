@@ -87,7 +87,7 @@ ui <- navbarPage(
            
            actionButton(inputId = "run_model", label = "Run Model"),
            
-           textOutput('py_output')
+           textOutput('py_function_output')
            
            
            
@@ -245,8 +245,8 @@ server <- function(input, output, session) {
       ) +
       labs(title = paste0(isolate(input$keyword), collapse = ","))
   })
-  
-  py_output <- reactive({
+  observeEvent(input$run_model, {
+ # py_output <- reactive({
     # Get the input values
     age <- input$Age
     sex <- input$Sex
@@ -267,11 +267,11 @@ server <- function(input, output, session) {
   
   })
   output$py_output <- renderText({
-    input$run_model
-    py_output()
+    
+    py_function_output
   })
   
- 
+#  })
 }
   
   
