@@ -81,9 +81,11 @@ ui <- navbarPage(
                         label = "What are your symptoms like?:",
                         choices = c("Symptomatic", "Unknown", "Asymptomatic"),inline = T),
            
-           radioButtons(inputId = "Do you have any underlying conditions",
-                        label = "What are your symptoms like?:",
+           radioButtons(inputId = "underlying_conditions",
+                        label = "do you have any underlying conditions?:",
                         choices = c("Yes", "No"),inline = T),
+           
+           actionButton(inputId = "run_model", label = "Run Model"),
            
            textOutput('py_output')
            
@@ -253,19 +255,23 @@ server <- function(input, output, session) {
     hospital <- input$hospital
     covid_exposure <- input$Covid_exposure
     symptoms <- input$symptoms
-    underlying_conditions <- input$"Do you have any underlying conditions"
+    underlying_conditions <- input$underlying_conditions
     
+
     # Call the Python function with the input values
-    py_function_output <- predict1(age, sex, race, ethnicity, hospital, covid_exposure, symptoms, underlying_conditions)
+    py_function_output <- predict1(age, sex, race, ethnicity,covid_exposure,symptoms, hospital, underlying_conditions)
+    
     
     # Return the output of the Python function
     py_function_output
-  })
   
+  })
   output$py_output <- renderText({
+    input$run_model
     py_output()
   })
   
+ 
 }
   
   
