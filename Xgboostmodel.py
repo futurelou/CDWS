@@ -34,8 +34,9 @@ param = {'max_depth': 1,
 model = xgb.train(param, xgtrain, 400)
 
 
-def predict1(test):
+def predict1(age, sex, race, ethnicity, hospital, covid_exposure, symptoms, underlying_conditions):
 
+    test = [age, sex, race, ethnicity, hospital, covid_exposure, symptoms, underlying_conditions]
     test = np.array(test)
 
     xgtest = xgb.DMatrix(test, enable_categorical=True)
