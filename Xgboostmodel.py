@@ -47,7 +47,7 @@ def predict1(age_group, sex, race, ethnicity, exposure_yn,symptom_status,hosp_yn
 
 
     test = pd.DataFrame(Data)
-    print(type(test))
+
     cats = test.select_dtypes(exclude=np.number).columns.tolist()
 
     for col in cats:
