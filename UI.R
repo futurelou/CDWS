@@ -9,6 +9,9 @@ library("shinycssloaders")
 library("gtrendsR")
 library("data.table")
 library("scales")
+library('reticulate')
+
+source_python("Xgboostmodel.py")
 
 states <- geojsonio::geojson_read("https://rstudio.github.io/leaflet/json/us-states.geojson", what = "sp")
 
@@ -78,9 +81,13 @@ ui <- navbarPage(
                         label = "What are your symptoms like?:",
                         choices = c("Symptomatic", "Unknown", "Asymptomatic"),inline = T),
            
-           radioButtons(inputId = "Do you have any underlying conditions",
-                        label = "What are your symptoms like?:",
+           radioButtons(inputId = "underlying_conditions",
+                        label = "do you have any underlying conditions?:",
                         choices = c("Yes", "No"),inline = T),
+           
+           actionButton(inputId = "run_model", label = "Run Model"),
+           
+           textOutput('py_output')
            
            
            
@@ -239,8 +246,8 @@ server <- function(input, output, session) {
       labs(title = paste0(isolate(input$keyword), collapse = ","))
   })
   
-  output$message <- renderText({
-    # Get user selections
+  observeEvent(input$run_model, {
+    # Get the input values
     age <- input$Age
     sex <- input$Sex
     race <- input$Race
@@ -250,23 +257,20 @@ server <- function(input, output, session) {
     symptoms <- input$symptoms
     underlying_conditions <- input$underlying_conditions
     
-    # Generate message based on user selections
+    # Call the predict1 function with the input values
+    py_function_output <- predict1(age, sex, race, ethnicity, covid_exposure, symptoms, hospital, underlying_conditions)
     
-    result <- py$my_python_function(age,sex,race,ethnicity,hospital,covid_exposure,symptoms,underlying_conditions)
-    
-    output$output <- renderPrint(result)
-    
-    
-    
+    # Update the output with the result of the predict1 function
+    output$py_output <- renderText({
+      py_function_output
+    })
   })
-   
-   
   
   
   
   
   
-)}
+}
   
   
 

@@ -33,21 +33,38 @@ param = {'max_depth': 1,
 
 model = xgb.train(param, xgtrain, 400)
 
-print(X_test.columns)
 
-def predict(test):
+def predict1(age_group, sex, race, ethnicity, exposure_yn,symptom_status,hosp_yn, underlying_conditions_yn):
+
+    Data ={ 'age_group':  [age_group],
+     'sex': [sex],
+    'race':[race],
+   'ethnicity': [ethnicity],
+   'exposure_yn': [exposure_yn],
+  'symptom_status':  [symptom_status],
+   'hosp_yn': [hosp_yn],
+'underlying_conditions_yn':[underlying_conditions_yn]}
+
+
+
+
+    test = pd.DataFrame(Data)
+
+    cats = test.select_dtypes(exclude=np.number).columns.tolist()
+
+    for col in cats:
+        test[col] = test[col].astype('category')
 
     xgtest = xgb.DMatrix(test, enable_categorical=True)
 
     preds = model.predict(xgtest)
+    preds = preds *100
 
-    for i in range(len(preds)):
-        if i<0.5:
-            preds[i]=0
-        elif i>0.5:
-            preds[i]=1
 
-    return preds
-#test
+
+
+
+    return f"you have a {preds}% chance of having COVID"
+
 
 
