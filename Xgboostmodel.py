@@ -58,13 +58,11 @@ def predict1(age_group, sex, race, ethnicity, exposure_yn,symptom_status,hosp_yn
     preds = model.predict(xgtest)
     preds = preds *100
 
-    print(test)
 
 
 
-    return test
 
-    #f"you have a {preds}% chance of having COVID"
+    return f"you have a {preds}% chance of having COVID"
 
 
 
