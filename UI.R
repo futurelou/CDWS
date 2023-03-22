@@ -87,7 +87,7 @@ ui <- navbarPage(
            
            actionButton(inputId = "run_model", label = "Run Model"),
            
-           textOutput('py_function_output')
+           textOutput('py_output')
            
            
            
@@ -245,8 +245,8 @@ server <- function(input, output, session) {
       ) +
       labs(title = paste0(isolate(input$keyword), collapse = ","))
   })
+  
   observeEvent(input$run_model, {
- # py_output <- reactive({
     # Get the input values
     age <- input$Age
     sex <- input$Sex
@@ -257,21 +257,19 @@ server <- function(input, output, session) {
     symptoms <- input$symptoms
     underlying_conditions <- input$underlying_conditions
     
-
-    # Call the Python function with the input values
-    py_function_output <- predict1(age, sex, race, ethnicity,covid_exposure,symptoms, hospital, underlying_conditions)
+    # Call the predict1 function with the input values
+    py_function_output <- predict1(age, sex, race, ethnicity, covid_exposure, symptoms, hospital, underlying_conditions)
     
-    
-    # Return the output of the Python function
-    py_function_output
-  
-  })
-  output$py_output <- renderText({
-    
-    py_function_output
+    # Update the output with the result of the predict1 function
+    output$py_output <- renderText({
+      py_function_output
+    })
   })
   
-#  })
+  
+  
+  
+  
 }
   
   
