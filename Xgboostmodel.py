@@ -38,6 +38,10 @@ def predict1(age, sex, race, ethnicity, hospital, covid_exposure, symptoms, unde
 
     test = [age, sex, race, ethnicity, hospital, covid_exposure, symptoms, underlying_conditions]
     test = pd.DataFrame(test)
+    cats = test.select_dtypes(exclude=np.number).columns.tolist()
+
+    for col in cats:
+        test[col] = test[col].astype('category')
 
     xgtest = xgb.DMatrix(test, enable_categorical=True)
 
