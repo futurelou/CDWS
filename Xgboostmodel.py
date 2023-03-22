@@ -36,8 +36,17 @@ model = xgb.train(param, xgtrain, 400)
 
 def predict1(age_group, sex, race, ethnicity, exposure_yn,symptom_status,hosp_yn, underlying_conditions_yn):
 
-    test = [age_group, sex, race, ethnicity, exposure_yn,symptom_status,hosp_yn, underlying_conditions_yn]
-    test = pd.DataFrame(test)
+
+
+    Data ={ 'age_group':  [age_group],
+     'sex': [sex],
+    'race':[race],
+   'ethnicity': [ethnicity],
+   'exposure_yn': [exposure_yn],
+  'symptom_status':  [symptom_status],
+   'hosp_yn': [hosp_yn],
+'underlying_conditions_yn':[underlying_conditions_yn]}
+    test = pd.DataFrame(Data)
     print(test)
     cats = test.select_dtypes(exclude=np.number).columns.tolist()
 
