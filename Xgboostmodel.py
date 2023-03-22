@@ -45,7 +45,7 @@ def predict1(age_group, sex, race, ethnicity, exposure_yn,symptom_status,hosp_yn
    'hosp_yn': [hosp_yn],
 'underlying_conditions_yn':[underlying_conditions_yn]}
 
-    print(Data)
+
 
 
     test = pd.DataFrame(Data)
