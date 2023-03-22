@@ -63,6 +63,8 @@ def predict1(age_group, sex, race, ethnicity, exposure_yn,symptom_status,hosp_yn
         elif i>0.5:
             preds[i]= 1
 
+    print(preds[0])
+
 
 
     return preds
