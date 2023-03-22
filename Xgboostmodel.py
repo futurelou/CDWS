@@ -60,7 +60,9 @@ def predict1(age_group, sex, race, ethnicity, exposure_yn,symptom_status,hosp_yn
 
 
 
-    return f"you have a {preds}% chance of having COVID"
+    return test
+
+    #f"you have a {preds}% chance of having COVID"
 
 
 
