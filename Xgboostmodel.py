@@ -57,13 +57,13 @@ def predict1(age_group, sex, race, ethnicity, exposure_yn,symptom_status,hosp_yn
 
     preds = model.predict(xgtest)
 
-    for i in range(len(preds)):
+    """for i in range(len(preds)):
         if i<0.5:
             preds[i]= 0
         elif i>0.5:
-            preds[i]= 1
+            preds[i]= 1"""
 
-    print(preds[0])
+
 
 
 
