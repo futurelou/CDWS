@@ -52,6 +52,8 @@ ui <- navbarPage(
     actionButton("keyword_go", "Search"),
     plotlyOutput("google_trends_plot")  %>% withSpinner()
   ),
+  
+  # on this tab panel we are looking at the symptom evaluation panel, machine learning is used to predict if a person has covid
   tabPanel(title = "Symptom Evaluation",
            radioButtons(inputId = "Age",
                               label = "Select your Age Group:",
@@ -85,8 +87,10 @@ ui <- navbarPage(
                         label = "do you have any underlying conditions?:",
                         choices = c("Yes", "No"),inline = T),
            
+           # action button should run the model when pressed. Still working on this 
            actionButton(inputId = "run_model", label = "Run Model"),
            
+           # displays output from the python function 
            textOutput('py_output')
            
            
@@ -246,6 +250,7 @@ server <- function(input, output, session) {
       labs(title = paste0(isolate(input$keyword), collapse = ","))
   })
   
+  # when the button is pushed the inputs decided are put into the predict function. This is currently not working needs more work
   observeEvent(input$run_model, {
     # Get the input values
     age <- input$Age
