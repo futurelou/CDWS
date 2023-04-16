@@ -43,8 +43,25 @@ ui <- navbarPage(
   ),
   tabPanel(
     title = "Potenial Spikes",
-    selectizeInput(inputId = "state", label = "State", choices = state.name, multiple = TRUE),
-    plotlyOutput("prediction_plot") %>% withSpinner()
+    headerPanel(
+      list(tags$head(tags$style()), 
+           HTML('<img src="Graphs.png", height="400px"    
+          style="float:left"/>','<p style="color:black"></p>')
+      )
+    ),
+    
+    tags$p("The Graph above and to the left represents how closely scaled viral and dailt case data follow each other. Next to that are the Oxford covariates which were used as weights in the Deep learning model"),
+    
+    br(),
+    br(),
+    
+      list(tags$head(tags$style()), 
+           HTML('<img src="TFT Pred 1.png", height="400px"    
+          style="float:left"/>','<p style="color:black"></p>')
+      ),
+    
+    tags$p("The graph to the left is our predictions from running the TFT deep learning algorithim. As you can see our predictions follow the trend of the graph"),
+    
   ),
   tabPanel(
     title = "Google Trends",
@@ -174,18 +191,24 @@ server <- function(input, output, session) {
       return()
   })
   
-  output$prediction_plot <- renderPlotly({
+  #output$prediction_plot <- renderPlotly({
     
-    shiny::validate(
-      need(input$state, "select one or more states")
-    )
+   # shiny::validate(
+  #    need(input$state, "select one or more states")
+  #  )
     
-    county_data() %>%
-      ggplot(aes(x, y)) +
-      geom_smooth(formula = y ~ x, method = "loess") +
-      geom_line() +
-      labs(title = paste0(input$state, collapse = ", "))
-  })
+  #  county_data() %>%
+  #    ggplot(aes(x, y)) +
+  #    geom_smooth(formula = y ~ x, method = "loess") +
+  #    geom_line() +
+  #    labs(title = paste0(input$state, collapse = ", "))
+    
+    
+    
+    
+    
+    
+ # })
   
   output$county_cloro <- renderLeaflet({
     
